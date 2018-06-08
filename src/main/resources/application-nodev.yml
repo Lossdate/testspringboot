@@ -1,0 +1,6 @@
+server:
+  port: 8380
+
+name: 安子倩
+age: 18
+content: "name: ${name}, age: ${age} [-nodev environment]"

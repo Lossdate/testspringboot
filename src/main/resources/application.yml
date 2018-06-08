@@ -1,0 +1,13 @@
+spring:
+  profiles:
+    active: nodev
+
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/testspringboot
+    username: root
+    password: zxc123%#
+  jpa:
+    hibernate:
+      ddl-auto: create
+    show-sql: true
